@@ -3,6 +3,8 @@
     import EditCar from "@/components/EditCar.vue";
     import CarsList from "@/components/CarsList.vue";
     import { ref } from "vue";
+    import SinglePage from "./SinglePage.vue";
+import Registration from "@/components/Registration.vue";
 
     const cars = ref([
   {
@@ -74,9 +76,8 @@ const editCar = (id) => {
 
 <template>
     <h1>Главная старница</h1>
-    <CarsList :cars="cars" :cars="cars":cars="cars" @removeCar="removeCar" @editCar="editCar" />
+    <CarsList :cars="cars" @removeCar="removeCar" @editCar="editCar" />
     <AddCar @addCar="addCar" />
-    <!-- <EditCar v-if="car" :car="car"  @updateCar= "updateCar" :cars="cars"/> -->
 </template>
 
 <style scoped>

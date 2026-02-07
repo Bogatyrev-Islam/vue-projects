@@ -33,6 +33,7 @@ const editCar = (car) => {
   </div>
 </template>
 
+
 <style scoped>
 .image {
   width: 200px;
