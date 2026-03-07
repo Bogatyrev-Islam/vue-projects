@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body{
+    background: #b2edff;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Nabla';
+    text-align: center;
+    margin-top: 50px;
+    font-size: 160px;
+    transition: transform 700ms ease;
+}
+h1:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+
+}
